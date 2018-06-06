@@ -94,9 +94,9 @@ Module.register("eMediPlan", {
            
  
             var newString = ""
-            newString += "Medicament: " + data[key][i].Id + ";";
-            newString += "Einheit: " + data[key][i].Unit + ";";
-            newString += "Grund: " + data[key][i].TkgRsn + ";";
+            newString += "Medicament: " + data[key][i].Id + "; ";
+            newString += "Einheit: " + data[key][i].Unit + "; ";
+            newString += "Grund: " + data[key][i].TkgRsn + "; ";
             newString += "Einnehmen am: ";
            
                 if(data[key][i].Pos[0].D[0]== 1){
